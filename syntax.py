@@ -10,9 +10,50 @@ In Python (programming language),
 
 print('Hello World!!')
 
-#2Basic rule: indentation matters
+#2 Basic rule: indentation matters
 
-#Python uses spaces to define blocks:
+# Python uses spaces to define blocks:
 
 if True:
     print("Hello")
+
+#3 Statements (instructions)
+
+#Each line is usually one instruction:
+
+x = 10
+print(x)
+
+#4 Variables (no declaration needed)
+name = "Asha"
+age = 20
+
+#5 Keywords (special words)
+"""
+Python uses reserved words:
+
+if, else, elif
+for, while
+def, class 
+True, False, None 
+"""
+
+#6 Conditions
+if age > 18:
+    print("Adult")
+
+#7 Loops
+for i in range(3):
+    print(i)
+
+#8 Functions
+def greet():
+    print("Hello")
+
+
+"""
+ General syntax rules
+No semicolons needed (; optional but not used normally)
+Case-sensitive (Name ≠ name)
+Uses : to start blocks
+Uses indentation instead of { } """
