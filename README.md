@@ -1,4 +1,4 @@
-# Python for AI Engineering 🚀
+# Python for AI Engineering 
 
 This repository contains my Python learning journey as I work towards becoming an AI Engineer.
 
