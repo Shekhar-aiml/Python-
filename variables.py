@@ -11,4 +11,22 @@ Type of the variable is inferred based on the value assigned.
 x = 5
 name = "Alex"  
 print(x)
-print(name)
+print(name) 
+
+"""
+Rules for Naming Variables
+To use variables correctly, the following naming rules should be followed:
+
+Names can contain letters, digits and underscores (_).
+The first character cannot be a digit.
+Names are case-sensitive, so myVar and myvar are treated differently.
+Keywords such as if, else and for cannot be used as variable names.
+Below listed variable names are valid:
+"""
+
+age = 21
+_colour = "lilac"
+total_score = 90
+
+class = 10       # class is a reserved keyword
+user-name = "Doe"  # Contains a hyphen
