@@ -1,4 +1,4 @@
-Python for AI
+<h1>Python for AI</h1>
 
   Python has become the go-to programming language for artificial intelligence (AI) development due to its simplicity and
   the powerful suite of libraries it offers. Its syntax is straightforward and closely resembles human language, which reduces
