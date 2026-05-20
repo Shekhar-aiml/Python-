@@ -55,32 +55,32 @@ several compelling reasons that make it uniquely suitable for these technologies
  linear algebra routines, Fourier transforms, and more. It's particularly useful for handling large, multi-dimensional arrays
  and matrices, which are prevalent in AI tasks​​.
 
-Pandas:
+<h4>Pandas:</h4>
 
  A library offering high-level data structures and tools designed to make data analysis fast and easy in Python.
  Pandas are ideal for data munging and preparation and can be used in conjunction with other data analysis workflows in Python​.
 
 
-Matplotlib:
+<h4>Matplotlib:</h4>
 
  This plotting library allows for the creation of static, animated, and interactive visualizations in Python. 
  Visual data representation is crucial in AI for data exploration and the presentation of results​.
 
 
  
-Scikit-learn: 
+<h4>Scikit-learn:</h4>
 
   Built on NumPy, SciPy, and Matplotlib, Scikit-learn is one of the most popular libraries for machine learning in Python. 
   It includes a range of supervised and unsupervised learning algorithms and is known for its simplicity and ease of use​.
 
 
-TensorFlow: 
+<h4>TensorFlow:</h4>
 
   An open-source library developed by the Google Brain team, TensorFlow is used for numerical computation using data flow graphs.
   It's particularly known for its applications in deep learning and neural networks​.
 
 
-PyTorch:
+<h4>PyTorch:</h4>
 
   Developed by Facebook's AI Research lab, PyTorch is a library for machine learning that provides great flexibility and
   speed while working with deep learning projects. It's known for its ease of use and efficiency in creating complex AI models​​.
