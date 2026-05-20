@@ -31,3 +31,28 @@ total_score = 90
 #Below listed variables names are invalid
 class = 10       # class is a reserved keyword
 user-name = "Doe"  # Contains a hyphen
+
+#Assigning Values to Variables
+# 1. Basic Assignment: Variables are assigned values using the = operator.
+
+
+x = 5
+y = 3.14
+z = "Hi"
+
+#2. Dynamic Typing: Python is dynamically typed, so the same variable can store different data types during execution.
+x = 10
+x = "Now a string"
+
+
+#3. Assigning Same Value: same value can be assigned to multiple variables in a single line.
+a = b = c = 100
+print(a, b, c)
+
+
+#4. Assigning Different Values: Multiple variables can also be assigned different values in a single line.
+
+x, y, z = 1, 2.5, "Python"
+print(x, y, z)
+
+
