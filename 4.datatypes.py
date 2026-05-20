@@ -126,3 +126,160 @@ different cases of Key will be treated distinctly.
 d = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
 print(d[1])    
 print(d.get(2))
+
+
+#Imp know this
+
+#Static vs Dynamic Typing?
+"""Static vs Dynamic Typing
+1. Dynamic Typing
+
+In Python:
+
+You do NOT fix the type of a variable
+Type can change anytime
+
+Example:
+x = 10
+x = "hello"
+
+Allowed
+Type changes
+
+ Simple meaning:
+
+“Same variable can hold different types”
+
+2. Static Typing
+
+In Java or C++:
+
+ You MUST fix the type first
+You cannot change it later
+
+Example:
+int x = 10;
+x = "hello";  // ❌ error
+
+ Not allowed
+
+ Simple meaning:
+
+“Variable type is fixed forever”
+"""
+#Static vs Dynamic Binding?
+
+"""Static vs Dynamic Binding
+1. Static Binding (Early Binding)
+
+Decision is made before program runs
+
+Used in:
+
+Java
+C++
+Simple idea:
+
+“Which function will run is already fixed early”
+
+Example idea:
+Call → already decided → run that function
+
+Like:
+You already know your classroom seat before entering.
+
+2. Dynamic Binding (Late Binding)
+
+Decision is made during program run
+
+Used in:
+
+Python
+Simple idea:
+
+“Which function will run is decided at runtime”
+
+Example:
+class Dog:
+    def sound(self):
+        print("Bark")
+
+class Cat:
+    def sound(self):
+        print("Meow")
+
+animal = Dog()
+animal.sound()
+
+Now:
+
+animal = Cat()
+animal.sound()
+
+Python decides at runtime:
+
+Dog → Bark
+Cat → Meow"""
+
+#Stylish declaration techniques
+
+"""
+Stylish Declaration Techniques in Python
+
+In Python, stylish declaration means writing variables in a clean and efficient way.
+
+1. Multiple Assignment
+
+Assign multiple values in one line:
+
+a, b, c = 1, 2, 3
+
+2. Same Value to Multiple Variables
+x = y = z = 100
+
+All variables store the same value.
+
+3. Swapping Variables
+a = 10
+b = 20
+
+a, b = b, a
+
+No temporary variable needed.
+
+4. List Unpacking
+data = [1, 2, 3]
+
+a, b, c = data
+
+List elements are assigned to variables.
+
+5. Extended Unpacking
+nums = [1, 2, 3, 4, 5]
+
+a, *middle, b = nums
+
+print(a)
+print(middle)
+print(b)
+
+Output:
+
+1
+[2, 3, 4]
+5
+
+6. Type Hint Style
+name: str = "Rahul"
+age: int = 20
+
+Used for readability, not strict enforcement.
+
+7. Dictionary Declaration
+student = {
+    "name": "Aman",
+    "age": 21
+}
+
+8. List Declaration
+fruits = ["apple", "banana", "mango"] """
