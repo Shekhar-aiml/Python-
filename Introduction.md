@@ -1,4 +1,4 @@
-"""Python for AI
+Python for AI
 
   Python has become the go-to programming language for artificial intelligence (AI) development due to its simplicity and
   the powerful suite of libraries it offers. Its syntax is straightforward and closely resembles human language, which reduces
@@ -72,4 +72,4 @@ TensorFlow:
 
 PyTorch:
   Developed by Facebook's AI Research lab, PyTorch is a library for machine learning that provides great flexibility and
-  speed while working with deep learning projects. It's known for its ease of use and efficiency in creating complex AI models​​."""
+  speed while working with deep learning projects. It's known for its ease of use and efficiency in creating complex AI models​​.
