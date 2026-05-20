@@ -29,8 +29,8 @@ _colour = "lilac"
 total_score = 90
 
 #Below listed variables names are invalid
-class = 10       # class is a reserved keyword
-user-name = "Doe"  # Contains a hyphen
+#class = 10       # class is a reserved keyword
+#user-name = "Doe"  # Contains a hyphen
 
 #Assigning Values to Variables
 # 1. Basic Assignment: Variables are assigned values using the = operator.
