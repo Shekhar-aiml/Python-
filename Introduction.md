@@ -6,7 +6,7 @@
   Python's extensive libraries, such as TensorFlow for deep learning, Scikit-learn for machine learning, and Pandas for data analysis,
   provide pre-built functions that facilitate rapid development and prototyping of AI models​.
 
-Why Python is Preferred for AI?
+<h3>Why Python is Preferred for AI?</h3>
 
 Python is highly favoured for AI and machine learning (ML) development for 
 several compelling reasons that make it uniquely suitable for these technologies:
