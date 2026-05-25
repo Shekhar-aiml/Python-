@@ -12,3 +12,26 @@ i = 1
 while i<11:
     print(number,'*',i,'=',number*i)
     i +=1
+
+#guess game 
+
+
+import random 
+
+jackpot =random.randint(1,10)
+guess=int(input('Guess the number: '))
+counter = 1
+
+while guess != jackpot:
+ 
+  if guess < jackpot:
+    print('Guess higher')
+  else:
+    print('Guess lower')
+
+  guess=int(input('Guess the number: '))
+  counter += 1
+
+else:
+  print('correct')
+  print('attempts: ',counter)
