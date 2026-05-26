@@ -69,17 +69,7 @@ print('Number of chickens: ',chicken)
 print('Number of Dogs: ',dogs)
 
 
-#Q7:- Write a program to find the sum of squares of first n 
-#natural numbers where n will be provided by the user.
 
 
-n = int(input('Enter value of n : '))
-
-sum_squares = 0
-
-for i in range(1,n + 1):
-    sum_squares += i * i
-   
 
 
-print('Sum of squares: ',sum_squares)   
