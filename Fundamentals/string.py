@@ -16,3 +16,170 @@ s = "It's raining outside"
 s = '''Multiline String'''
 s = """Multiline String """
 
+
+# ==========================================================
+# Accessing Characters in a String in Python
+# ==========================================================
+
+s = "hello world"
+
+
+# ==========================================================
+# Positive Indexing
+# ==========================================================
+
+print("Positive Indexing")
+
+print(s[0])   # h
+print(s[1])   # e
+print(s[5])   # (space)
+
+print("-" * 50)
+
+
+# ==========================================================
+# Negative Indexing
+# ==========================================================
+
+print("Negative Indexing")
+
+print(s[-1])  # d
+print(s[-4])  # o
+
+print("-" * 50)
+
+
+# ==========================================================
+# String Slicing
+# ==========================================================
+
+print("String Slicing")
+
+# Positive slicing
+print(s[0:5])     # hello
+print(s[3:6])     # lo
+print(s[0:6:2])   # hlo
+
+# Reverse slicing
+print(s[6:0:-1])  # w olle
+
+print("-" * 50)
+
+
+# ==========================================================
+# Reversing a String
+# ==========================================================
+
+print("Reversing String")
+
+print(s[::-1])    # dlrow olleh
+
+print("-" * 50)
+
+
+# ==========================================================
+# Negative Slicing
+# ==========================================================
+
+print("Negative Slicing")
+
+print(s[-1:-6:-1])   # dlrow
+
+print("-" * 50)
+
+
+# ==========================================================
+# Editing Strings
+# ==========================================================
+
+# Python strings are immutable.
+# You cannot modify individual characters.
+
+# Example:
+# s[0] = 'H'    Error
+
+
+# ==========================================================
+# Deleting a String
+# ==========================================================
+
+del s
+
+# print(s)    NameError: 's' is deleted
+
+
+# ==========================================================
+# Operations on Strings
+# ==========================================================
+
+print("\nOperations on Strings\n")
+
+
+# ==========================================================
+# Arithmetic Operations
+# ==========================================================
+
+print("Arithmetic Operations")
+
+# Concatenation
+print("Mumbai" + " " + "Delhi")
+
+# Repetition
+print("*" * 50)
+
+print("-" * 50)
+
+
+# ==========================================================
+# Relational Operators
+# ==========================================================
+
+print("Relational Operators\n")
+
+print("Mumbai" < "Pune")
+print("pune" > "mumbai")
+
+print("mumbai" == "pune")
+print("mumbai" != "pune")
+
+print("-" * 50)
+
+
+# ==========================================================
+# Logical Operators
+# ==========================================================
+
+print("Logical Operators\n")
+
+print("hello" and "world")
+print("hello" or "world")
+print("" or "world")
+
+print("-" * 50)
+
+
+# ==========================================================
+# Membership Operators
+# ==========================================================
+
+print("Membership Operators")
+
+print("D" in "Delhi")
+print("d" not in "delhi")
+
+print("-" * 50)
+
+
+# ==========================================================
+# Loops in Strings
+# ==========================================================
+
+print("Loops in Strings")
+
+for i in "hello":
+    print(i)
+
+print("-" * 50)
+
+for i in "delhi":
+    print("pune")
