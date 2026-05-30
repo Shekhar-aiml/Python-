@@ -183,3 +183,13 @@ print("-" * 50)
 
 for i in "delhi":
     print("pune")
+
+
+#functions on strings 
+
+len('hello world')   #shows length of strings
+max('hello world')   #maximum string 
+min('hello world')     #minimum
+sorted('hello world')   #sorts in ascending order
+
+
