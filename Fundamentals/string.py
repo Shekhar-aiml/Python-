@@ -193,3 +193,15 @@ min('hello world')     #minimum
 sorted('hello world')   #sorts in ascending order
 
 
+
+#Capitalize/title/Uppercase/lowercase/swapcase
+
+s = 'hello world'
+
+print(s.capitalize())
+print(s.title())
+print(s.upper())
+print(s.lower())
+print(s.swapcase()) 
+
+
