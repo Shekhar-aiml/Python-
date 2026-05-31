@@ -204,4 +204,65 @@ print(s.upper())
 print(s.lower())
 print(s.swapcase()) 
 
+# Search & Count Methods
+# ------------------------------------------
+
+s = "Hello Everyone"
+
+print("Count of 'o':", s.count('o'))
+print("Find 'y':", s.find('y'))      # Returns -1 if not found
+print("Index of 'o':", s.index('o')) # Raises error if not found
+
+print("-" * 50)
+
+
+# ------------------------------------------
+# String Checking Methods
+# ------------------------------------------
+
+s = "my name is tony stark"
+
+print("Starts with 'my':", s.startswith('my'))
+print("Ends with 'stark':", s.endswith('stark'))
+
+print("-" * 50)
+
+
+# ------------------------------------------
+# String Formatting
+# ------------------------------------------
+
+name = "tony"
+age = 25
+
+print("My name is {}, and my age is {}".format(name, age))
+
+print("-" * 50)
+
+
+# ------------------------------------------
+# Validation Methods
+# ------------------------------------------
+
+username = "tony125"
+
+print("isalnum():", username.isalnum())          # Letters + numbers
+print("isalpha():", username.isalpha())          # Only letters
+print("isdigit():", username.isdigit())          # Only digits
+print("isidentifier():", username.isidentifier()) # Valid variable name
+
+print("-" * 50)
+
+
+# ------------------------------------------
+# Split & Join Methods
+# ------------------------------------------
+
+text = "once upon a time"
+
+print("split():", text.split())
+print("join():", "-".join(["once", "upon", "a", "time"]))
+
+print("-" * 50)
+
 
