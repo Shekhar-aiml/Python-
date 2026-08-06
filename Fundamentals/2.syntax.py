@@ -1,59 +1,72 @@
 """
 Python Syntax
-Syntax means the rules for writing code correctly in Python (like grammar in English).
 
-In Python (programming language),
- syntax tells you how to structure statements so the computer understands them.
+Syntax refers to the set of rules that define how Python code
+must be written so that the interpreter can understand it.
 
+Key Syntax Rules
+----------------
+1. Indentation defines code blocks.
+2. Python is case-sensitive.
+3. Colons (:) start a new code block.
+4. Statements are usually written one per line.
+5. Semicolons are optional but not recommended.
+6. Comments begin with #.
+7. Multi-line comments/docstrings use triple quotes.
 """
-#1 Printing Output 
 
-print('Hello World!!')
 
-#2 Basic rule: indentation matters
+# Printing Output
 
-# Python uses spaces to define blocks:
+
+print("Hello, World!")
+
+
+# Indentation
 
 if True:
-    print("Hello")
+    print("Indentation defines this block.")
 
-#3 Statements (instructions)
 
-#Each line is usually one instruction:
+# Statements
+
 
 x = 10
-print(x)
+y = 20
+print(x + y)
 
-#4 Variables (no declaration needed)
-name = "Asha"
-age = 20
 
-#5 Keywords (special words)
+# Comments
+
+
+# This is a single-line comment.
+
 """
-Python uses reserved words:
-
-if, else, elif
-for, while
-def, class 
-True, False, None 
+This is a multi-line comment
+or documentation string (docstring).
 """
 
-#6 Conditions
-if age > 18:
-    print("Adult")
 
-#7 Loops
+# Case Sensitivity
+
+name = "Alice"
+
+# print(Name)   # NameError
+print(name)
+
+
+# Colon (:)
+
+
 for i in range(3):
     print(i)
 
-#8 Functions
-def greet():
-    print("Hello")
+# Optional Semicolon
 
 
-"""
- General syntax rules
-No semicolons needed (; optional but not used normally)
-Case-sensitive (Name ≠ name)
-Uses : to start blocks
-Uses indentation instead of { } """
+a = 5
+b = 10
+
+# Valid but not recommended
+c = a + b;
+print(c)
