@@ -1,26 +1,127 @@
 """
 Python Modules
+==============
 
-Module is a file containing definitions and statements. A module can define functions, classes and variables.
-Modules help organize code into separate files so that programs become easier to maintain and reuse. 
-Instead of writing everything in one place, related functionality can be grouped into its own module and imported whenever needed.
+A module is a Python file containing definitions and statements.
 
-Create a Module
-To create a module, write the desired code and save that in a file with .py extension.
+A module can contain:
 
-Example: Let's create a calc.py in which we define two functions, one add and another subtract."""
+- Functions
+- Classes
+- Variables
 
-# calc.py
-def add(x, y):
-    return (x+y)
+Modules help us:
 
-def subtract(x, y):
-    return (x-y)
+- Organize code
+- Reuse code
+- Keep related functionality together
+- Make programs easier to maintain
+
+A Python module is simply a .py file.
+"""
+
+
+# ============================================================
+# 1. Creating a Module
+# ============================================================
+"""
+Suppose we have a file named:
+
+    calc.py
+
+The calc.py module contains:
+
+    add()
+    subtract()
+
+We can import the module and use its functions.
+"""
 
 import calc
-print(calc.add(10, 2)) #Example
 
-#import module
+
+print("Using the calc module:")
+
+print("Addition:", calc.add(10, 2))
+print("Subtraction:", calc.subtract(10, 2))
+
+
+# ============================================================
+# 2. Importing Specific Functions
+# ============================================================
+"""
+Instead of importing the entire module, we can import
+specific functions from a module.
+"""
+
 from math import sqrt, factorial
-print(sqrt(16))
-print(factorial(6))
+
+
+print("\nUsing specific functions from math:")
+
+print("Square root:", sqrt(16))
+print("Factorial:", factorial(6))
+
+
+# ============================================================
+# 3. Importing the Entire Module
+# ============================================================
+"""
+We can also import the entire math module.
+
+Example:
+
+    import math
+
+Then access functions using:
+
+    math.sqrt()
+    math.factorial()
+"""
+
+import math
+
+
+print("\nUsing the math module:")
+
+print("Square root:", math.sqrt(25))
+print("Factorial:", math.factorial(5))
+
+
+# ============================================================
+# 4. Importing with an Alias
+# ============================================================
+"""
+The 'as' keyword allows us to give a module a shorter name.
+
+Example:
+
+    import math as m
+"""
+
+import math as m
+
+print("\nUsing an alias:")
+print("Square root:", m.sqrt(36))
+
+
+# ============================================================
+# 5. Module Naming
+# ============================================================
+"""
+When importing your own module:
+
+    import calc
+
+Python looks for calc.py in the appropriate module search path.
+
+Avoid naming your own modules after standard-library modules.
+
+For example, avoid names such as:
+
+    math.py
+    random.py
+    os.py
+
+because they can cause import conflicts.
+"""
